@@ -54,7 +54,7 @@ if (signupButton)
       .then((userCredential) => {
           // Signed in 
           const user = userCredential.user;
-          // ...
+          signupForm.reset();
       })
       .catch((error) => {
           const errorCode = error.code;
@@ -96,8 +96,9 @@ onAuthStateChanged(auth, (user) => {
   if (user) {
     // If the user is logged in, get their UID and display songs from Firestore
     const userID = user.uid; 
-    console.log("user", user)
+
     currentUser.innerHTML = "Logged in email: " + user.email
+
     displaySongsFromFirestore(userID);
   } else {
     // If the user is logged out, clear the song list
