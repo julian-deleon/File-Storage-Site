@@ -1,0 +1,25 @@
+/* Add this CSS to your existing styles */
+.song-item {
+    list-style: none;
+    display: flex; /* Display elements side by side */
+    align-items: center; /* Align elements vertically in the middle */
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Add a border around each song item */
+    padding: 10px; /* Add padding inside the border */
+    width: 600px;
+  }
+  
+  .song-item img {
+    width: 50px; /* Adjust image width as needed */
+    height: 50px; /* Adjust image height as needed */
+   
+  }
+
+  .song-item a {
+    margin-left: 30px;
+  }
+  
+  .song-item p {
+    margin-right: 30px;
+  }
+  
