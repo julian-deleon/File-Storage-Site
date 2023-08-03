@@ -12,6 +12,4 @@
 - Once the file is successfully uploaded to Firebase, you can then click the ***Download*** link to preview/download the file.
 - The list will show a preview if it is an image file, or a file icon if it is another type of file.
 
-![file-storage-v1](https://github.com/julian-deleon/File-Storage-Site/assets/77114985/640e4bf9-9956-43eb-8e38-5c2a7ce21e07)
-
-  
+![file-storage-v1-copy](https://github.com/julian-deleon/File-Storage-Site/assets/77114985/129caee0-e910-4a27-a5be-831d8aa28fb2)
