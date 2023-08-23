@@ -204,9 +204,12 @@ function createSongItemTemplate(songItem) {
 
   return `
     <div class="song-item">
-      <p>${songItem.Name} | ${songItem.Artist}</p> 
+      <div class="details">
+        <p class="name">${songItem.Name}</p>
+        <p class="description">${songItem.Artist}</p> 
+      </div> 
       <div class="file-icon">${fileIcon}</div>
-      <a href="${songItem.imageURL}" download>Download</a>
+      <a href="${songItem.imageURL}" class="download-button"><i class="fas fa-download"></i><a>
     </div>
   `;
 }

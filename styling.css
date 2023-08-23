@@ -1,25 +1,64 @@
-/* Add this CSS to your existing styles */
 .song-item {
-    list-style: none;
-    display: flex; /* Display elements side by side */
-    align-items: center; /* Align elements vertically in the middle */
-    margin-bottom: 10px;
-    border: 1px solid #ccc; /* Add a border around each song item */
-    padding: 10px; /* Add padding inside the border */
-    width: 600px;
-  }
-  
-  .song-item img {
-    width: 50px; /* Adjust image width as needed */
-    height: 50px; /* Adjust image height as needed */
-   
-  }
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 550px;
+  height: 75px;
+  position: relative;
+  background-color: #f3f6f5;
+}
 
-  .song-item a {
-    margin-left: 30px;
-  }
-  
-  .song-item p {
-    margin-right: 30px;
-  }
-  
+.details {
+  display: flexbox;
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.song-item .file-icon {
+  flex: 1;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  left: 435px;
+}
+
+.song-item .file-icon i {
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+}
+
+.song-item .file-icon img,
+.song-item .file-icon i {
+  max-height: 130px;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.download-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #54c058;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  z-index: 2; /* Ensure the button is on top of the image/icon */
+}
+
+.download-button:hover {
+  background-color: #16741b; /* Darker shade of green on hover */
+}
