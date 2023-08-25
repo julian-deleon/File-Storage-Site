@@ -10,7 +10,7 @@
   width: 550px;
   height: 75px;
   position: relative;
-  background-color: #f3f6f5;
+  background-image: linear-gradient(to left, #f2f7f8, #9cd3f0); /* Gradient background */
 }
 
 .details {
@@ -61,4 +61,92 @@
 
 .download-button:hover {
   background-color: #16741b; /* Darker shade of green on hover */
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#signout-button {
+  background-color: #d20909c0;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+#signout-button:hover {
+  background-color: #f80505eb;
+}
+
+
+/* Welcome Screen */
+
+.welcome-body {
+  background-image: url('images/modern-seamless-pattern-with-school-supplies-white-background_198278-1464.avif'); /* Replace with the actual path */
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+}
+
+.welcome-screen {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  margin-top: 100px;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to left, #f2f7f8, #f6b574);
+}
+
+.welcome-screen h4 {
+  margin-bottom: 35px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.welcome-screen form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-label {
+  margin-left: 34px;
+}
+
+.welcome-screen label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.welcome-screen input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.welcome-screen button {
+  padding: 10px 15px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.sign-up-button {
+  margin-right: 10px;
+}
+
+.welcome-screen button:hover {
+  background-color: #0056b3;
 }
