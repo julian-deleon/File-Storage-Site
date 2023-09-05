@@ -87,8 +87,8 @@
 /* Welcome Screen */
 
 .welcome-body {
-  background-image: url('images/modern-seamless-pattern-with-school-supplies-white-background_198278-1464.avif'); /* Replace with the actual path */
-  background-size: cover; /* Adjust as needed */
+  background-image: url('images/istockphoto-165503554-612x612.jpg'); /* Replace with the actual path */
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
@@ -102,7 +102,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-  background-image: linear-gradient(to left, #f2f7f8, #f6b574);
+  background-image: linear-gradient(to left, #f6f8fb, #ccd3f7);
 }
 
 .welcome-screen h4 {
@@ -129,7 +129,7 @@
   padding: 8px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 
 .welcome-screen button {
