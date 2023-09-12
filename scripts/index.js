@@ -55,6 +55,11 @@ if (signupButton)
           // Signed in 
           const user = userCredential.user;
           signupForm.reset();
+
+          // Show an alert with the error message
+          alert("User created successfully with these credentials:\n"
+                + "Email: " + email + "\n"
+                + "Password: " + password);
       })
       .catch((error) => {
           const errorCode = error.code;
@@ -76,6 +81,9 @@ async function loginUser(email, password) {
     console.log('User logged in:', user);
   } catch (error) {
     console.error('Error logging in:', error);
+
+    // Show an alert with the error message
+    alert('Incorrect credentials. Please try again.');
   }
 }
 

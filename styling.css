@@ -29,21 +29,21 @@
   display: flex;
   position: absolute;
   z-index: 1;
-  left: 435px;
+  left: 460px;
 }
 
 .song-item .file-icon i {
   position: absolute;
   z-index: 1;
-  left: 50px;
+  left: 35px;
 }
 
 .song-item .file-icon img,
 .song-item .file-icon i {
-  max-height: 130px;
-  width: auto;
-  height: auto;
+  width: 105px;
+  height: 85px;
   border-radius: 10px;
+
 }
 
 .download-button {
@@ -178,8 +178,8 @@
     display: flex;
     position: absolute;
     z-index: 1;
-    left: -170px;
-    top: -43px;
+    left: -200px;
+    top: -40px;
   }
 
   .song-item .file-icon i {
@@ -188,8 +188,8 @@
     display: flex;
     position: absolute;
     z-index: 1;
-    left: -125px;
-    top: -30px;
+    left: -165px;
+    top: -25px;
   }
 
   .song-item .file-icon img,
@@ -209,6 +209,10 @@
 
   #song-input {
     margin-bottom: 5px;
+  }
+
+  #playlist-form {
+    margin-left: 20px;
   }
  
   /* You can adjust other styles here as needed for smaller screens */
