@@ -161,11 +161,15 @@
 @media (max-width: 600px) {
   
   .song-item {
-    max-width: 275px;
+    max-width: 325px;
   }
 
   ul {
     padding: 0;
+  }
+
+  .body {
+    overflow-x: hidden;
   }
  
   .song-item .file-icon img {
@@ -174,7 +178,7 @@
     display: flex;
     position: absolute;
     z-index: 1;
-    left: -220px;
+    left: -170px;
     top: -43px;
   }
 
@@ -184,7 +188,7 @@
     display: flex;
     position: absolute;
     z-index: 1;
-    left: -175px;
+    left: -125px;
     top: -30px;
   }
 
