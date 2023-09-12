@@ -150,3 +150,62 @@
 .welcome-screen button:hover {
   background-color: #0056b3;
 }
+
+.song-item {
+  display: flex;
+}
+
+/* Media Queries */
+
+/* Media query for screens with a maximum width of 600px (typical for mobile devices) */
+@media (max-width: 600px) {
+  
+  .song-item {
+    max-width: 275px;
+  }
+
+  ul {
+    padding: 0;
+  }
+ 
+  .song-item .file-icon img {
+    /* Reset the styles to their default values or remove properties */
+    flex: 1;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    left: -220px;
+    top: -43px;
+  }
+
+  .song-item .file-icon i {
+    /* Reset the styles to their default values or remove properties */
+    flex: 1;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    left: -175px;
+    top: -30px;
+  }
+
+  .song-item .file-icon img,
+  .song-item .file-icon i {
+    max-height: 75px;
+    max-width: 75px;
+    border-radius: 10px;
+  }
+
+  .description {
+    max-width: 200px;
+  }
+
+  #image-input {
+    margin-top: 20px;
+  }
+
+  #song-input {
+    margin-bottom: 5px;
+  }
+ 
+  /* You can adjust other styles here as needed for smaller screens */
+}
